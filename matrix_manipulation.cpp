@@ -15,9 +15,9 @@ void gotoxy(int x, int y)
 }
 
 void printMatrix(int matrix[][20]) {
-    for (int i = 1; i < 10; i++) {
-        for (int j = 0; j < 20; j++) {
-            if (j == 19) {
+    for (int j = 0; j < 20; j++) {
+        for (int i = 0; i < 10; i++) {
+            if (i == 9) {
                 std::cout << matrix[i][j] << "\n";
             }
             else {
