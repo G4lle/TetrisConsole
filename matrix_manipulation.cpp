@@ -23,7 +23,6 @@ void printMatrix(int matrix[][20]) {
             else {
                 std::cout << matrix[i][j] << " ";
             }
-
         }
     }
 
