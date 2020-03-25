@@ -33,3 +33,6 @@ Tetris.vcxproj.user
 main.cpp
 Tetris.vcxproj
 Tetris.vcxproj.filters
+*.obj
+*.log
+*.tlog
