@@ -3,8 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 
-void consoleLinkage() {
-
+void consoleLinkage() { 
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
     CONSOLE_CURSOR_INFO     cursorInfo;
     GetConsoleCursorInfo(out, &cursorInfo);
