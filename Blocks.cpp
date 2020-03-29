@@ -1,7 +1,4 @@
 #include <iostream>
-#include <cairo.h>
-#include <cairo.h>
-#include <gtk/gtk.h>
 #include <Windows.h>
 #include "Blocks.h"
 
